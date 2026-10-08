@@ -1,0 +1,1 @@
+const f=document.getElementById('form');if(f)f.addEventListener('submit',e=>{e.preventDefault();const c='FC-2040-'+Math.floor(1000+Math.random()*9000);localStorage.code=c;location.href='success.html'});const c=document.getElementById('code');if(c)c.textContent=localStorage.code||'FC-2040';
